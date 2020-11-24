@@ -1,1 +1,3 @@
-$("#header").load("./header.html")
+$("#header").load("./header.html");
+
+$.getScript("./js/header.js");

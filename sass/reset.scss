@@ -101,4 +101,17 @@ textarea {
 }
 .centre {
     width: 1180px;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
+/* -------------------------------------万能清除浮动法 */
+.clear {
+    *zoom: 1;
+}
+.clear::after {
+    content: ' ';
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
