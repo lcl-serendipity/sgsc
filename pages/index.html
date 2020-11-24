@@ -5,11 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
-    <script src="../js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
 </head>
 <body>
+    <!-- 头部 -->
     <header id="header"></header>
     
-    <script src="../js/index.js"></script>
+ <main>
+    
+     <!-- 轮播图 -->
+        <div class="swiper-container" id="swiper1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#"><img src="../img/lbt01.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="../img/lbt02.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="../img/lbt03.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="../img/lbt04.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="../img/lbt05.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="../img/lbt06.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="../img/lbt07.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="../img/lbt08.png" alt=""></a></div>
+            </div>
+            
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            
+            <!-- 如果需要滚动条 -->
+            <!--  <div class="swiper-scrollbar"></div>  -->
+        </div>
+        <div class="blank"></div>
+        <h2 class="centre"><span>智能产品推荐</span><i>工作学习，出国旅游好帮手</i></h2>
+        <div class="blank_m"></div>
+        <div class="ph centre clear">
+            <div class="left_ph">
+                <a href="#"><img src="../img/ph01.png" alt=""></a>
+            </div>
+            <div class="swiper-container" id="swiper2">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#"><img src="../img/min-lbt01.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="../img/min-lbt02.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="../img/min-lbt03.png" alt=""></a></div>
+                </div>          
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+        
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <h2 class="centre"><span>糖猫产品</span><i>糖猫连续三年获“全国质量诚信示范企业”国民信赖品牌实至名归</i></h2>
+        <div class="blank_m"></div>
+        <div class="products centre">
+            <a href="#">
+                <img src="../img/tm01.jpg" alt="">
+                <p>搜狗出品 糖猫词典笔</p>
+                <i>随扫随译扫出好成绩</i>
+                <span>￥ 799.00</span>
+            </a>
+            <a href="#">
+                <img src="../img/tm02.jpg" alt="">
+                <p>搜狗糖猫A10 视频电话手表</p>
+                <i>大屏长续航 多重精准定位</i>
+                <span>￥ 399.00</span>
+            </a>
+            <a href="#">
+                <img src="../img/tm03.jpg" alt="">
+                <p>搜狗糖猫K1</p>
+                <i>能学习的视频电话手表</i>
+                <span>￥ 499.00</span>
+            </a>
+            <a href="#">
+                <img src="../img/tm04.jpg" alt="">
+                <p>糖猫JOY2 能学口语的儿童手表</p>
+                <i>4G高速网络，高清视频通话，AI多重...</i>
+                <span>￥ 319.00</span>
+            </a>
+        </div>
+        <div class="blank"></div>
+        <div class="pir centre">
+            <a href="#"><img src="../img/20190716144306_1679.png" alt=""></a>
+        </div>
+        <div class="blank_m"></div>
+        <div class="blank"></div>
+        <h2 class="centre"><span>爆款产品</span><i>给您精心挑选的爆款产品</i></h2>
+        <div class="blank_m"></div>
+
+        <div class="swiper-container centre" id="swiper3">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"><img src="../img/bkcp01.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="../img/bkcp02.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="../img/bkcp03.jpg" alt=""></a></div>
+            </div>          
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+    
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <!-- 侧边栏 -->
+        <div class="toolbar">
+            <div class="tools">
+                <a class="tools_o" href="#"><i class="personage"></i><span class="name">个人中心</span></a>
+                <a href="#"><i class="cart"></i><span class="name">购物车</span></a>
+                <a href="#"><i class="service"></i><span class="name">在线客服</span></a>
+            </div>
+            <div class="gotop">
+                <span class="gp"></span>
+                <i>回顶部</i>
+            </div>
+        </div>
+        <!-- 页尾 -->
+        <div class="foot"></div>
+
+
+<script src="../js/index.js"></script>
+   
+</main>
 </body>
 </html>

@@ -1,0 +1,265 @@
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+#swiper1 {
+    width: 100%;
+    height: 450px;
+/*     background-color: gold; */
+   .swiper-button-prev{
+       width: 40px;
+       height: 60px;
+       background-color: #cccccc;
+       margin-left: 160px;
+       cursor: pointer;
+       opacity: 0.3;
+   }
+   .swiper-button-next{
+    width: 40px;
+    height: 60px;
+    background-color: #cccccc;
+    margin-right: 160px;
+    cursor: pointer;
+    opacity: 0.3;
+    }
+} 
+
+h2 {
+    height: 40px;
+    line-height: 40px;
+    margin: 30px 0 20px 0;
+    span {
+        font-size: 22px;
+        color: #262626;
+        margin-right: 20px;
+    }
+    i {
+        font-size: 16px;
+        color: #8c8c8c;
+    }
+}
+.blank {
+    height: 30px;
+}
+.blank_m {
+    height: 20px;
+}
+
+.ph {
+    height: 370px;
+    
+    .left_ph{
+        float: left;
+        width: 580px;
+        margin-right: 20px;
+        a{
+            display: block;
+            .img {
+                width: 580px;
+                height: 370px;
+            }
+        }
+    }
+    #swiper2 {
+        width: 580px;
+        float: right;
+        .swiper-button-prev{
+            width: 40px;
+            height: 60px;
+            background-color: #cccccc;
+            opacity: 0.3;
+         
+            cursor: pointer;
+        }
+        .swiper-button-next{
+         width: 40px;
+         height: 60px;
+         background-color: #cccccc;
+         opacity: 0.3;
+         
+         cursor: pointer;
+         }
+        a{
+            display: block;
+            img {
+                width: 580px;
+                height: 370px;
+            }
+        }
+    }
+}
+//66行
+.products {
+
+    display: flex;
+    justify-content: space-between;
+    a {
+        display: block;
+        width: 280px;
+        height: 370px;
+        padding: 20px;
+        text-align: center;
+        background-color: #ffff;
+        &:hover {
+         box-shadow: 1px 1px 5px #cccccc;
+           transform:translateY(-2px)
+        }      
+        img{
+            width: 240px;
+            height: 240px;
+            display: block;
+        }
+        p {
+            width: 240px;
+            height: 36px;
+            color: #262626;
+            font-size: 16px;
+        }
+        i {
+            display: block;
+            font-size: 14px;
+            color: #8c8c8c;
+            margin-bottom: 14px;
+            height: 20px;
+            overflow: hidden;
+        }
+        span {
+            color: red;
+        }
+    }
+}
+.pir {
+    width: "160px";
+    a {
+        display: block;
+        img {
+            width: 100%;
+            height: 160px;
+        }
+    }
+}
+
+//101行
+#swiper3 {
+
+    height: 400px;
+    .swiper-button-prev{
+        width: 40px;
+        height: 60px;
+        background-color: #cccccc;
+        opacity: 0.3;     
+        cursor: pointer;
+    }
+    .swiper-button-next{
+     width: 40px;
+     height: 60px;
+     background-color: #cccccc;
+     opacity: 0.3;     
+     cursor: pointer;
+     }
+}
+
+/* 侧边栏 */
+.toolbar {
+    width: 80px;
+    height: 355px;
+    position: fixed;
+    right: 0;
+    bottom: 80px;
+    z-index: 9;
+    .tools {        
+        height: 255px;
+        background: #fff;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        border: 1px solid #eee;
+        border-right: none;
+        
+        a{
+            display: block;
+            width: 60px;
+            height: 84px;
+            padding-top: 14px;
+            text-align: center;
+            background: #ffff;
+            margin: auto;
+            border-top: solid 1px #e8e8e8;
+            .name {
+                font-size: 14px;
+                color: #595959;
+                &:hover{
+                    color: red;
+                } 
+            }
+            .personage {
+                display: block;
+                width: 32px;
+                height: 32px;
+                background-image: url(../img/icon-sgsc.png);
+                background-repeat: no-repeat;
+                background-position-x:-98px;
+                background-position-y:-98px ;
+                margin: auto;
+                margin-bottom: 10px;
+            }
+            .cart {
+                display: block;
+                width: 32px;
+                height: 32px;
+                background-image: url(../img/icon-sgsc.png);
+                background-repeat: no-repeat;
+                background-position-x:-160px;
+                background-position-y:-100px ;
+                margin: auto;
+            }
+            .service {
+                display: block;
+                width: 32px;
+                height: 32px;
+                background-image: url(../img/icon-sgsc.png);
+                background-repeat: no-repeat;
+                background-position-x:-194px;
+                background-position-y:-98px ;
+                margin: auto;
+            }
+        }
+        .tools_o {
+            border: none;
+        }
+    }
+    .gotop {
+        position: absolute;
+        width: 80px;
+        height: 84px;
+        left: 0;
+        bottom: 0;
+        background: #fff;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        border: 1px solid #eee;
+        border-right: none;
+        padding-top: 14px;
+        text-align: center;
+        cursor: pointer;
+        .gp {
+            display: block;
+            width: 32px;
+            height: 32px;
+            background-image: url(../img/icon-sgsc.png);
+            background-repeat: no-repeat;
+            background-position-x:-37px;
+            background-position-y:-100px;
+            margin-left: 28px;
+            
+        }
+        i{
+            font-size: 14px;
+            color: #595959;
+            &:hover{
+                color: red;
+            } 
+        }
+    }
+}
