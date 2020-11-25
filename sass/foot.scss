@@ -1,0 +1,188 @@
+.service {
+    margin-top: 50px;
+    height: 280px;
+    background-color: white;
+    border-bottom: 1px solid #e8e8e8;
+    padding-top: 40px;
+    .intro {
+        float: left;
+        width: 580px;
+        
+        color: #262626;
+        p{
+            width: 580px;
+            color: #262626;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 45px;
+        }
+        .intro_ul {
+            li {
+                float: left;
+                width: 65px;
+                margin: 0 25px;
+                .kjlq{
+                    background-image: url(../img/icon-sgsc.png);
+                    background-repeat: no-repeat;
+                    background-position-x:-63px;
+                    background-position-y:-442px;
+                    display: block;
+                    margin-bottom: 20px;
+                    width: 64px;
+                    height: 64px;
+                }
+                span {
+                    font-size: 16px;
+                    color: #262626;
+                }
+                .rgzn {
+                    background-image: url(../img/icon-sgsc.png);
+                    background-repeat: no-repeat;
+                    background-position-x:1px;
+                    background-position-y:-442px;
+                    display: block;
+                    margin-bottom: 20px;
+                    width: 64px;
+                    height: 64px;
+                }
+                .znfy {
+                    background-image: url(../img/icon-sgsc.png);
+                    background-repeat: no-repeat;
+                    background-position-x:-206px;
+                    background-position-y:-506px;
+                    display: block;
+                    margin-bottom: 20px;
+                    width: 64px;
+                    height: 64px;
+                }
+                .znsh {
+                    background-image: url(../img/icon-sgsc.png);
+                    background-repeat: no-repeat;
+                    background-position-x:-193px;
+                    background-position-y:-444px;
+                    display: block;
+                    margin-bottom: 20px;
+                    width: 64px;
+                    height: 64px;
+                }
+                .kktx {
+                    background-image: url(../img/icon-sgsc.png);
+                    background-repeat: no-repeat;
+                    background-position-x:-127px;
+                    background-position-y:-442px;
+                    display: block;
+                    margin-bottom: 20px;
+                    width: 64px;
+                    height: 64px;
+                }
+            }
+        }
+    }
+    .follow {
+        width: 360px;
+        border-left: solid 1px #e8e8e8;
+        border-right: solid 1px #e8e8e8;
+        float: left;
+        padding: 0 42px;
+        p {
+            font-size: 18px;
+            color: #262626;
+            margin-bottom: 24px;
+        }
+        ul {
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            li {
+                margin-right: 36px;
+                text-align: center;
+                img {
+                    
+                    width: 120px;
+                    height: 120px;
+                    margin-bottom: 10px;
+                }
+                span {
+                    color: #262626;
+                    font: 18px;
+                }
+            }
+        }
+    }
+    .contact {
+        float: right;
+        width: 235px;
+       
+        ul {
+            width: 175px;
+            margin: 0 auto;
+            overflow: hidden;
+            margin-bottom: 20px;
+            .icon_a {
+                width: 87px;
+                margin-right: 16px;
+                float: left;
+                span {
+                    margin: 0 auto;
+                    margin-bottom: 5px;
+                    width: 48px;
+                    height: 48px;
+                    display: block;
+                    background-image: url(../img/icon-sgsc.png);
+                    background-repeat: no-repeat;
+                    background-position-x:-162px;
+                    background-position-y:-195px;
+                }
+                i {
+                    font-size: 14px;
+                    color: #000000;
+                }
+            }
+            .icon_b {
+                width: 72px;
+                float: right;
+                span {
+                    margin: 0 auto;
+                    margin-bottom: 11px;
+                    width: 38px;
+                    height: 42px;
+                    display: block;
+                    background-image: url(../img/icon-sgsc.png);
+                    background-repeat: no-repeat;
+                    background-position-x:-252px;
+                    background-position-y:-149px;
+                }
+                
+                i {
+                    font-size: 14px;
+                    color: #000000;
+                }
+            }
+        }
+        .btm {
+            text-align: center;
+            padding-top: 23px;
+            border-top: 1px solid #e8e8e8;
+            width: 180px;
+            margin: 20px auto 0;
+            p {
+                text-align: center;
+                font-size: 16px;
+                color: #262626;
+            }
+            span {
+                text-align: center;
+                display: block;
+                font-size: 24px;
+                margin-bottom: 15px;
+                margin-top: 20px;
+                color: red;
+            }
+            i {
+                
+                font-size: 14px;
+                color: #8c8c8c;
+            }
+        }
+    }
+}

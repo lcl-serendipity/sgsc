@@ -23,7 +23,7 @@ task('json', async ()=>{
 // 处理JS
 task('script', async ()=>{
   src('./js/*.js')
-  .pipe(load.babel({ presets: ['@babel/env']}))
+  // .pipe(load.babel({ presets: ['@babel/env']}))
   .pipe(dest('./dist/js'))
   .pipe(load.connect.reload())
 })

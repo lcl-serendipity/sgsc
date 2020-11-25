@@ -1,6 +1,7 @@
 $("#header").load("./header.html");
-
+$("#foot").load("./foot.html");
 $.getScript("./js/header.js");
+
 
 var Swiper1 = new Swiper ('#swiper1', {
     //direction: 'vertical', // 垂直切换选项
