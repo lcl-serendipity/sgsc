@@ -218,6 +218,59 @@ p {
         }
         .buy {
             margin-top: 25px;
+            .join {
+                background: #fff;
+                color: #ea413c;
+                border: 1px solid #ea413c;
+                width: 190px;
+                height: 50px;
+                margin-right: 20px;
+                font-size: 18px;
+                border-radius: 2px;
+                cursor: pointer;
+                opacity: 0.8;
+                outline:none;
+            }
+            .pro {
+                background: #ea413c;
+                color: #fff;
+                border: 1px solid #ea413c;
+                width: 190px;
+                height: 50px;
+                border-radius: 2px;
+                font-size: 18px;
+                cursor: pointer;
+                outline:none;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+        .detail-guarantee {
+            margin-top: 20px;
+            span {
+                margin: 0 22px 0 11px;
+                i {
+                    display: inline-block;
+                    width: 19px;
+                    height: 21px;
+                    margin-bottom: -5px;
+                    background-image: url(../img/icon-sgsc.png);
+                    background-repeat: no-repeat;
+                    background-position-x:-271px;
+                    background-position-y:-23px;
+                }
+                u {
+                    margin: 0 22px 0 11px;
+                    color: #8c8c8c;
+                    font-size: 14px;
+                }
+            }
         }
     }
+}
+
+.occupied {
+    height: 100px;
+    width: 100%;
 }
