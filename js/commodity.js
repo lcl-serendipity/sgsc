@@ -27,3 +27,31 @@ $btnA.on("click",function(){
     $ipt.val(numa)
     
 })
+
+
+// 设置cookie
+function setCookie(options){
+    options.days = options.days || 0
+    options.path = options.path || ''
+    if (options.days === 0) {
+      document.cookie = options.key+'='+options.val+'; path='+options.path
+    } else {
+      var d = new Date()
+      d.setDate(d.getDate()+options.days)
+      document.cookie = options.key+'='+options.val+'; expires='+d+'; path='+options.path
+    }
+  }
+  
+//点击立即购买
+$(".buy .pro").on("click",function(){
+    window.open("./shopping.html")
+})
+console.log($(".buy .join"));
+$(".buy .join").on("click",function(){
+    alert("添加成功")
+    setCookie({
+        key:"code",
+        val:"321",
+        days:7
+    })
+})
